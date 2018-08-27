@@ -13,15 +13,18 @@ public class App {
 //        System.out.println("Factorial 5 = " + Functions.getFactorial(5));
 
 
-        strInput = "abcd";
+        strInput = "jaichenchlani";
 
 //        System.out.println(strInput.substring(0,1));
 //        System.out.println(strInput.substring(1,strInput.length()));
 
-        System.out.println("Reverse of " + strInput + " is: " + Functions.getReverseString(strInput));
+        System.out.println("Reverse of " + strInput + " is: " + Functions.getReverseString(strInput) + "\n");
 
-        System.out.println("Converted First Letter to Uppercase for " + strInput + " : " + Functions.capitalizeFirstLetter(strInput));
+        System.out.println("Converted First Letter to Uppercase for " + strInput + " : " + Functions.capitalizeFirstLetter(strInput) + "\n");
 
+        intInput = 1421;
+
+        System.out.println("Is " + intInput + " Prime? " + Functions.isPrime(intInput) + "\n");
 
     }
 

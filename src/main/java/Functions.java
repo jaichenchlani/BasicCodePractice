@@ -30,5 +30,40 @@ public class Functions {
         return  resultString;
     }
 
+    public static boolean isPrime(int a) {
+
+        if (a <= 1) {
+            System.out.println("Decision A: Less than or equal to 1.\n");
+            return false;
+        }
+
+        if (a == 2) {
+            System.out.println("Decision B: 2 is a Prime Number.\n");
+            return true;
+        }
+
+        if (isEven(a)) {
+            System.out.println("Decision C: Even Number.\n");
+            return false;
+        }
+
+        for (int i = 3; i <= a/2 ; i=i+2) {
+            if (a % i == 0) {
+                System.out.println("Decision D: Divisible by " + i);
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public static boolean isEven(int a) {
+        if (a % 2 == 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 
 }
