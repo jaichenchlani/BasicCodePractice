@@ -13,7 +13,7 @@ public class App {
 //        System.out.println("Factorial 5 = " + Functions.getFactorial(5));
 
 
-        strInput = "jaichenchlani";
+        strInput = "one two three four";
 
 //        System.out.println(strInput.substring(0,1));
 //        System.out.println(strInput.substring(1,strInput.length()));
@@ -25,6 +25,11 @@ public class App {
         intInput = 1421;
 
         System.out.println("Is " + intInput + " Prime? " + Functions.isPrime(intInput) + "\n");
+
+        System.out.println("Original Sentence: " + strInput + "\n");
+
+        System.out.println("Reversed Sentence: " + Functions.getReverseSentence(strInput) + "\n");
+
 
     }
 
