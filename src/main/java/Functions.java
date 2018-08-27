@@ -65,5 +65,15 @@ public class Functions {
         }
     }
 
+    public static String getReverseSentence(String s) {
+        String resultString = "";
+        String strArray[];
+        strArray = s.split(" ");
 
+        for (int i = strArray.length - 1; i >= 0 ; i--) {
+            System.out.println(strArray[i]);
+            resultString = resultString + " " + strArray[i];
+        }
+        return resultString;
+    }
 }
