@@ -76,4 +76,9 @@ public class Functions {
         }
         return resultString;
     }
+
+    public static String FeatureTest() {
+        return "";
+    }
+
 }
