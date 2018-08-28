@@ -1,5 +1,7 @@
 public class Functions {
 
+//  Test commit.
+
     public static int addNumbers(int a, int b) {
         return a+b;
     }
@@ -81,4 +83,7 @@ public class Functions {
         return "";
     }
 
+    public static void Feature2Test() {
+
+    }
 }
